@@ -1,0 +1,120 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding-top: 56px;
+}
+
+
+header{
+  height: auto;
+  padding: 1em;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.ResumePage{
+  display: flex;
+
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: 20px;
+ 
+}
+
+#Front-End{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  margin-top: 20px;
+  padding: 40px;
+  border: #213547 10px solid;
+  list-style: decimal;
+}
+
+ul.Front-End{
+  list-style: decimal;
+
+}
+
+#Back-End{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  margin-top: 20px;
+  padding: 40px;
+  border: #213547 10px solid;
+  
+}
+
+.ContactMe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  margin-top: 20px;
+}
+
+main {
+  flex: 1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.project-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.footer {
+  width: 100%;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
